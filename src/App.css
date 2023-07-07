@@ -1,0 +1,48 @@
+.container{
+ height: 100%;
+ padding: 1rem;
+}
+
+.table-card{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-bottom: 1px solid var(--fontWhite);
+  &:hover{
+    background-color: var(--greyDark);
+  }
+  & > :first-child{
+    width: 5rem;
+  }
+  &.header{
+    border-top: 1px solid var(--fontWhite);
+    font-size: var(--fontSizeLarge);
+    font-weight: var(--fontWeightBold);
+  }
+}
+
+.table-row{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+   > div{
+    padding: 1rem;
+   }
+}
+
+
+/* Set the list on smaller screens */
+@media (max-width: 600px) {
+  .table-card{
+    border-top: 1px solid var(--fontWhite);
+  }
+  .table-row {
+    display: block;
+  }
+  .header{
+    display: none;
+  }
+}
+
+.icon{
+  display: flex;
+  padding: 1rem;
+}

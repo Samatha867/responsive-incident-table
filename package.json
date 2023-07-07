@@ -1,0 +1,67 @@
+{
+  "name": "responsive-table",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "4.8.2",
+    "web-vitals": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "29.0.0",
+    "@types/node": "18.7.14",
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "eslint": "8.23.0",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "6.7.0",
+    "prettier": "2.7.1",
+    "react-app-rewire-postcss": "3.0.2",
+    "react-app-rewired": "2.2.1",
+    "stylelint": "14.11.0",
+    "stylelint-config-css-modules": "4.1.0",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-standard": "28.0.0"
+  }
+}
